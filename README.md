@@ -46,8 +46,8 @@ The project was developed using the following technologies
 ### Backend
 Download the project and then use the commands bellow:  
 ```bash
-yarn knex:migrate
 yarn install
+yarn knex:migrate
 yarn dev:server
 ```
 
