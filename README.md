@@ -1,52 +1,78 @@
-<h1 align="center">
-  <img src="./github_files/todolist.png" alt="To Do List" width="700">
-<br>
-To Do List
-</h1>
+<h3 align="center">
+    <img alt="Verzel Tasks" width="560" title="#logo" src="./github_assets/todolist.png">
+    <br>
+</h3>
+<p align="center"> 🚀 <strong>ToDo List</strong>
+ </p>
 
-<p align="center"> 🚀 A simple To Do List application with create, edit and check items.
 <p align="center">
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
+   <img src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/guilhermeorcezi/verzel-tasks#readme">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
+  </a>
+  <a href="https://github.com/guilhermeorcezi/verzel-tasks/graphs/commit-activity">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
+  </a>
+  <a href="https://github.com/guilhermeorcezi/verzel-tasks/blob/master/LICENSE">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
   </a>
 </p>
 
-## Features
+# :pushpin: Table of Contents
 
-- ⚛️ **React Js** — Javascript lib to create de interfaces.
-- 💹 **Node Js** — Web framework to use Javascript on both the frontend and backend
+- [About](#sobre)
+- [Technologies](#tecnologias-utilizadas)
+- [How to run](#como-usar)
+- [How to Contribute](#como-contribuir)
 
-## Getting started
+<a id="sobre"></a>
+
+## :bookmark: About
+
+The <strong>ToDoList</strong> is a simple To Do List application with create, edit, delete and check items.
+
+## :rocket: Technologies
+
+The project was developed using the following technologies
+
+- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://pt-br.reactjs.org/)
+- [NodeJS](https://nodejs.org/en/)
+- [Styled Components](https://styled-components.com/)
+- [Context API](https://redux.js.org/)
+
+## :fire: How to run
 
 ### Backend
-Download the project. Use MongoDB and create the **.env** file to configure the string connection with `User:Password` on the MONGO_URL property.  
+Download the project and then use the commands bellow:  
 ```bash
-MONGO_URL: string connection
-```
-To install the dependencies and run **server** (development mode) execute:
-```bash
+yarn knex:migrate
 yarn install
-yarn dev
+yarn dev:server
 ```
 
-### Frontend
-To start **Frontend** using React use the commands:
+### :exclamation: Front-End (Web Application)
+To start the **application** use the commands:
 ```bash
-yarn install
-yarn start
+yarn install // npm install
+yarn start // npm start
 ```
-Once the process is finished, the `localhost: 3000` page will automatically open in your browser with the developed application
 
-### Insomnia 
-To test the To Do List API, download and install [Insomnia] (https://insomnia.rest/download/) and then click on Workspace → `Import / Export` →` Import Data` → `From File` → and select the `Insomnia.json` file from this repository.
+After the process is over, the `localhost: 3000` page containing the developed project will automatically open in your browser.
 
-## How to contribute
-- First leave a ⭐!
-- Fork the repositories in production as they are updated: <a href="https://github.com/guilhermeorcezi/todolist"> MonoRepo;</a>
-- Create a branch with your feature: `git checkout -b my-feature`;
-- Commit your changes: `git commit -m 'feat: My new feature'`;
-- Push to your branch: `git push origin my-feature`.
+### :recycle: How to contribute
+- First, leave a ⭐ if you like it!
+- Fork this repository;
+- Create a branch with your feature: `git checkout -b my-feature`
+- Commit your changes: `git commit -m 'feat: My new feature'`
+- Push your branch: `git push origin my-feature`
 
-## License
+## :memo: License
 
-This project is licensed by MIT License - Go to the [licence page](https://opensource.org/licenses/MIT) to see more details.
+This project is under the MIT license. See the [licence page](https://opensource.org/licenses/MIT) for more details.
+
+---
+
+<h4 align="center">
+    Made with 💜 by <a href="https://www.linkedin.com/in/guilherme-orcezi" target="_blank">Guilherme Orcezi</a>
+</h4>
