@@ -1,5 +1,5 @@
 <h3 align="center">
-    <img alt="Verzel Tasks" width="560" title="#logo" src="./github_assets/todolist.png">
+    <img alt="ToDoList" width="560" title="#logo" src="./github_files/todolist.png">
     <br>
 </h3>
 <p align="center"> 🚀 <strong>ToDo List</strong>
